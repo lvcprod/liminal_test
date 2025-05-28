@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+header {
+  background: #111;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #a855f7;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero {
+  height: 90vh;
+  background: url('https://bandbarracks.com/wp-content/uploads/2022/05/0IZlSgWSaySqdPxoI90r1kY53d8Ip4Ud1650658913.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #a855f7, #06b6d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: black;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+   -webkit-text-fill-color: black;
+   background-color: #888;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: #a855f7;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #9333ea;
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #a855f7;
+  text-align: center;
+}
+
+.service {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.service h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+#reserva {
+    text-align: center;
+}
+
+#contacto {
+    text-align: center;
+}
+
+.footer {
+  background: #111;
+  padding: 2rem;
+  text-align: center;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}

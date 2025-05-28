@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LIMINAL - Estudio & Productora</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>LIMINAL</h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#reserva">Reservas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Donde tu sonido encuentra forma</h2>
+    <p>Estudio de grabación y productora artística especializada en géneros urbanos.</p>
+    <a href="#reserva"><button class="btn">Reservá tu turno</button></a>
+  </section>
+
+  <section class="section" id="servicios">
+    <h3>Servicios</h3>
+    <div class="service">
+      <h4>🎙 Grabación en Estudio</h4>
+      <p>Grabá con equipo profesional en un entorno preparado para potenciar tu sonido.</p>
+    </div>
+    <div class="service">
+      <h4>🎧 Mezcla Profesional</h4>
+      <p>Convertimos tus pistas en una obra sólida, clara y con impacto.</p>
+    </div>
+    <div class="service">
+      <h4>🎚 Mastering</h4>
+      <p>Tu canción lista para salir al mundo con el volumen y pulido final que merece.</p>
+    </div>
+  </section>
+
+  <section class="section" id="reserva">
+    <h3>Reservas</h3>
+    <p>Disponibilidad de 10 a 20 hs. Completá el formulario y nos pondremos en contacto.</p>
+    <form id="reserva-form">
+      <label>Nombre:<br><input type="text" required></label><br><br>
+      <label>Email:<br><input type="email" required></label><br><br>
+      <label>Fecha:<br><input type="date" required></label><br><br>
+      <label>Horario:<br><input type="time" min="10:00" max="20:00" required></label><br><br>
+      <label>Servicio:<br>
+        <select required>
+          <option value="grabacion">Grabación</option>
+          <option value="mezcla">Mezcla</option>
+          <option value="mastering">Mastering</option>
+        </select>
+      </label><br><br>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <section class="section" id="contacto">
+    <h3>Contacto</h3>
+    <p>📧 hola@liminalstudio.com<br>📍 Buenos Aires, Argentina</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 LIMINAL Studio. Todos los derechos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
